@@ -270,12 +270,12 @@ class MergePlugin implements PluginInterface, EventSubscriberInterface
 
         $package = new ExtraPackage($path, $this->composer, $this->logger);
 
-        /*if (isset($root->getRequires()[$package->getName()])) {
+        if (isset($root->getRequires()[$package->getName()])) {
             $this->logger->info(
                 "Ignoring composer json already required by root: <comment>{$package->getName()}</comment>"
             );
             return;
-        }*/
+        }
 
         if (isset($this->loadedNoDev[$path])) {
             $this->logger->info(
