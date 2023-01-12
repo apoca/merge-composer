@@ -80,7 +80,7 @@ class MergePlugin implements PluginInterface, EventSubscriberInterface
     /**
      * Official package name
      */
-    public const PACKAGE_NAME = 'wikimedia/composer-merge-plugin';
+    public const PACKAGE_NAME = 'apoca/merge-composer';
 
     /**
      * Priority that plugin uses to register callbacks.
