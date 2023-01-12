@@ -1,6 +1,6 @@
 {
-    "name": "wikimedia/composer-merge-plugin",
-    "description": "Composer plugin to merge multiple composer.json files",
+    "name": "apoca/merge-composer",
+    "description": "Copy of Composer plugin to merge multiple composer.json files",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
@@ -31,7 +31,7 @@
     },
     "extra": {
         "branch-alias": {
-             "dev-master": "2.x-dev"
+            "dev-master": "2.x-dev"
         },
         "class": "Wikimedia\\Composer\\Merge\\V2\\MergePlugin"
     },
